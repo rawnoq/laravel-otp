@@ -4,7 +4,7 @@
     "keywords": ["laravel", "otp", "one-time-password", "verification", "authentication"],
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.2",
     "authors": [
         {
             "name": "Rawnoq",
