@@ -1,6 +1,6 @@
 <?php
 
-namespace Rawnoq\LaravelOtp\Models;
+namespace Rawnoq\Otp\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

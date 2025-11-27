@@ -1,10 +1,10 @@
 <?php
 
-namespace Rawnoq\LaravelOtp\Services;
+namespace Rawnoq\Otp\Services;
 
-use Rawnoq\LaravelOtp\Generators\OtpGenerator;
-use Rawnoq\LaravelOtp\Models\Otp;
-use Rawnoq\LaravelOtp\Repositories\OtpRepository;
+use Rawnoq\Otp\Generators\OtpGenerator;
+use Rawnoq\Otp\Models\Otp;
+use Rawnoq\Otp\Repositories\OtpRepository;
 use Illuminate\Support\Carbon;
 
 class OtpService

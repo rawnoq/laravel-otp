@@ -1,6 +1,6 @@
 <?php
 
-namespace Rawnoq\LaravelOtp\Generators;
+namespace Rawnoq\Otp\Generators;
 
 class OtpGenerator
 {

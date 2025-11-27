@@ -4,7 +4,7 @@
     "keywords": ["laravel", "otp", "one-time-password", "verification", "authentication"],
     "type": "library",
     "license": "MIT",
-    "version": "1.4",
+    "version": "1.5.0",
     "require": {
         "php": "^8.0"
     },
@@ -14,21 +14,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Rawnoq\\LaravelOtp\\": "src/"
+            "Rawnoq\\Otp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rawnoq\\LaravelOtp\\Tests\\": "tests/"
+            "Rawnoq\\Otp\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rawnoq\\LaravelOtp\\OtpServiceProvider"
+                "Rawnoq\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
-                "Otp": "Rawnoq\\LaravelOtp\\Facades\\Otp"
+                "Otp": "Rawnoq\\Otp\\Facades\\Otp"
             }
         }
     },

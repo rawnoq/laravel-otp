@@ -1,8 +1,8 @@
 <?php
 
-namespace Rawnoq\LaravelOtp\Repositories;
+namespace Rawnoq\Otp\Repositories;
 
-use Rawnoq\LaravelOtp\Models\Otp;
+use Rawnoq\Otp\Models\Otp;
 use Illuminate\Support\Carbon;
 
 class OtpRepository

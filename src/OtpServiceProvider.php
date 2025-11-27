@@ -1,11 +1,11 @@
 <?php
 
-namespace Rawnoq\LaravelOtp;
+namespace Rawnoq\Otp;
 
 use Illuminate\Support\ServiceProvider;
-use Rawnoq\LaravelOtp\Generators\OtpGenerator;
-use Rawnoq\LaravelOtp\Repositories\OtpRepository;
-use Rawnoq\LaravelOtp\Services\OtpService;
+use Rawnoq\Otp\Generators\OtpGenerator;
+use Rawnoq\Otp\Repositories\OtpRepository;
+use Rawnoq\Otp\Services\OtpService;
 
 class OtpServiceProvider extends ServiceProvider
 {
